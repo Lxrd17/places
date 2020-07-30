@@ -9,6 +9,7 @@ new simpleParallax(image, {
     transition: 'cubic-bezier(0,0,0,0)'
 });
 
+
 $(function () {
     var selectedClass = "";
     $(".filter").click(function () {
@@ -21,3 +22,4 @@ $(function () {
         }, 300);
     });
 });
+
